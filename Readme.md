@@ -1,1 +1,3 @@
-#Impeach-ery
+# Impeach-ery
+
+In this project, we set out to create and find the best way to summarize the transcripts from the Impeachment Hearings of President Donald Trump. To do so, we implemented three extractive text algorithms (which we names Weighted Heuristic, K-Means, and Cosine Similarity) and compared their effectiveness at summarizing political text. We found that Cosine similarity worked by far the best, under both our Unit Overlap and Lexical Semantic Analysis similarity metrics. However, some problems, such as lack of context when it comes to pronouns, were still unaddressed in our algorithms. In the future, we would like to develop heuristic cases to fix these issues, as well as put our work into practice through a website where users can browse summarized transcripts of the Impeachment Hearings.
